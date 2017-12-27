@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.sriram.voter.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Coke Image"
+            android:src="@drawable/ic_coke" />
+
+        <TextView
+            android:id="@+id/tv_coke_count"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:textSize="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            />
+
+        <Button
+            android:id="@+id/btn_coke_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOTE"
+            android:layout_margin="8dp"
+            android:onClick="onCokeClicked"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="206dp"
+            android:contentDescription="Coke Image"
+            android:src="@drawable/ic_pepsi" />
+
+        <TextView
+            android:id="@+id/tv_pepsi_count"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:textSize="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            />
+
+        <Button
+            android:id="@+id/btn_pepsi_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOTE"
+            android:layout_margin="8dp"
+            android:onClick="onPepsiClicked"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
