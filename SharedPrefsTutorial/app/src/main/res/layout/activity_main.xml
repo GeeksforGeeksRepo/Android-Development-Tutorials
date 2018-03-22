@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    tools:context="in.snotes.sharedprefstutorial.MainActivity">
+
+    <EditText
+        android:id="@+id/edt_input_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Key" />
+
+    <EditText
+        android:id="@+id/edt_input_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Value" />
+
+    <Button
+        android:id="@+id/btn_save_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data" />
+
+
+    <EditText
+        android:id="@+id/edt_output_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Key" />
+
+    <Button
+        android:id="@+id/btn_get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Data" />
+
+    <TextView
+        android:id="@+id/tv_output_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp" />
+
+</LinearLayout>
